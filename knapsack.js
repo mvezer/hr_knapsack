@@ -1,5 +1,15 @@
 function processData(input) {
-    //Enter your code here
+    var inputArr = String(input).split('\n');
+    var t = parseInt(inputArr[0]);
+    for (var i = 1; i < t; i+=2) {
+    	var n = parseInt(inputArr[i].split(' ')[0]);
+    	var k = parseInt(inputArr[i].split(' ')[1]);
+
+    	var arr = inputArr[i + 1].split(' ');
+    	arr = arr.map(Number);
+
+    	
+    }
 } 
 
 process.stdin.resume();
